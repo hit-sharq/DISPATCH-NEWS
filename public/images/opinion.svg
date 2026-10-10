@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Speech bubbles illustration">
+  <rect width="400" height="250" fill="#dfe0db"/>
+  <path d="M56 60 h296 a16 16 0 0 1 16 16 v96 a16 16 0 0 1 -16 16 h-176 l-44 36 v-36 h-48 a16 16 0 0 1 -16 -16 v-96 a16 16 0 0 1 16 -16 Z" fill="#111111"/>
+  <path d="M110 96 c-14 2 -22 12 -22 24 c0 12 8 20 18 22 l4 -12 c-6 -2 -9 -6 -9 -11 c0 -6 4 -10 10 -11 l-2 -12 Z" fill="#dfe0db"/>
+  <path d="M182 96 c-14 2 -22 12 -22 24 c0 12 8 20 18 22 l4 -12 c-6 -2 -9 -6 -9 -11 c0 -6 4 -10 10 -11 l-2 -12 Z" fill="#dfe0db"/>
+  <circle cx="330" cy="196" r="22" fill="#bb0a1e"/>
+  <circle cx="282" cy="210" r="14" fill="#006b3f"/>
+  <rect y="210" width="400" height="40" fill="#111111"/>
+  <rect y="210" width="400" height="5" fill="#bb0a1e"/>
+</svg>

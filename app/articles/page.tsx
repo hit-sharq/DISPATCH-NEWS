@@ -2,16 +2,14 @@
 
 import { useState } from 'react'
 import { Check, Copy, Image as ImageIcon, Link2, Send, Share2 } from 'lucide-react'
+import SiteHeader from '../../components/SiteHeader'
+import SiteFooter from '../../components/SiteFooter'
 
 const trending = [
   { category: 'Politics', title: 'UDA defections reshape the race ahead of 2027', note: 'Party realignments are accelerating as governors and MPs weigh new alliances.' },
   { category: 'Health', title: 'Kenya steps up Ebola surveillance after confirmed case', note: 'Health officials are tracing contacts and monitoring suspected cases.' },
   { category: 'Business', title: 'South Sudan plans inland depot at Naivasha SEZ', note: 'The project aims to ease pressure on the Port of Mombasa.' },
 ]
-
-function EditorialMark() {
-  return <div className="wordmark">Dispatch<sup>KE</sup></div>
-}
 
 function KenyaPulse() {
   return <svg viewBox="0 0 520 180" role="img" aria-label="Abstract red, black and green editorial wave" className="pulse-art">
@@ -39,10 +37,9 @@ export default function ArticlesPage() {
   const copyLink = async () => { await navigator.clipboard?.writeText(window.location.href); setCopied(true); setTimeout(() => setCopied(false), 1800) }
 
   return <div className="editor-shell">
-    <div className="utility"><div className="wrap"><span>Dispatch newsroom · editorial workspace</span><a href="/">Back to homepage</a></div></div>
-    <header className="editor-header"><div className="wrap editor-header-inner"><a href="/" aria-label="Dispatch KE home"><EditorialMark /><span className="tagline">Independent news for Kenya</span></a><div className="editor-actions"><span className="status-dot">Autosave on</span><a className="button" href="#preview">Preview story</a></div></div></header>
+    <SiteHeader active="write" />
     <main className="wrap editor-main">
-      <div className="editor-intro"><div><span className="kicker">Newsroom</span><h1>Write an article</h1><p>Shape the story, add a strong visual, and publish it across the Dispatch network.</p></div><ShareArticle title={headline || 'Dispatch KE article'} /></div>
+      <div className="editor-intro"><div><span className="kicker">Newsroom</span><h1>Write an article</h1><p>Shape the story, add a strong visual, and publish it across the Dispatch network.</p></div><div className="intro-actions"><a className="button" href="#preview">Preview story</a><ShareArticle title={headline || 'Dispatch KE article'} /></div></div>
       <div className="editor-layout">
         <section className="writing-panel" aria-label="Article editor">
           <div className="field-row"><label>Section<select defaultValue="News"><option>News</option><option>Politics</option><option>Business</option><option>Counties</option><option>Sports</option><option>Tech</option><option>Opinion</option></select></label><label>Byline<input defaultValue="Dispatch Newsroom" /></label></div>
@@ -56,6 +53,7 @@ export default function ArticlesPage() {
       </div>
       <section className="preview-card" id="preview"><div><span className="kicker">Live preview</span><h2>{headline || 'Your headline will appear here'}</h2><p>{body || 'Your article preview will update as you write. Keep the opening focused and useful to readers.'}</p></div><div className="preview-art"><KenyaPulse /></div></section>
     </main>
+    <SiteFooter />
   </div>
 }
 

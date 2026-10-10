@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Circuit board illustration">
+  <rect width="400" height="250" fill="#dfe0db"/>
+  <g stroke="#111111" stroke-width="6" fill="none">
+    <path d="M60 60 H140 V120"/>
+    <path d="M60 190 H140 V130"/>
+    <path d="M340 60 H260 V120"/>
+    <path d="M340 190 H260 V130"/>
+    <path d="M200 70 V180"/>
+  </g>
+  <g fill="#111111">
+    <circle cx="60" cy="60" r="14"/>
+    <circle cx="60" cy="190" r="14"/>
+    <circle cx="340" cy="60" r="14"/>
+    <circle cx="340" cy="190" r="14"/>
+  </g>
+  <rect x="160" y="90" width="80" height="70" rx="8" fill="#111111"/>
+  <rect x="176" y="106" width="48" height="38" rx="4" fill="#dfe0db" opacity=".85"/>
+  <circle cx="200" cy="125" r="9" fill="#bb0a1e"/>
+  <circle cx="140" cy="120" r="10" fill="#bb0a1e"/>
+  <circle cx="260" cy="120" r="10" fill="#006b3f"/>
+  <rect y="210" width="400" height="40" fill="#111111"/>
+  <rect y="210" width="400" height="5" fill="#bb0a1e"/>
+</svg>

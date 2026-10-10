@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Running track illustration">
+  <rect width="400" height="250" fill="#dfe0db"/>
+  <g fill="none" stroke="#111111" stroke-width="10">
+    <path d="M-20 250 A 270 270 0 0 1 420 250"/>
+    <path d="M-20 250 A 250 250 0 0 1 420 250"/>
+    <path d="M-20 250 A 230 230 0 0 1 420 250"/>
+  </g>
+  <path d="M-20 250 A 240 240 0 0 1 420 250" fill="none" stroke="#bb0a1e" stroke-width="10"/>
+  <circle cx="316" cy="96" r="26" fill="#111111"/>
+  <path d="M300 88 Q316 100 332 88" fill="none" stroke="#dfe0db" stroke-width="4"/>
+  <rect y="210" width="400" height="40" fill="#111111"/>
+  <rect y="210" width="400" height="5" fill="#006b3f"/>
+</svg>

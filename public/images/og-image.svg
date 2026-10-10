@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111111"/>
+  <rect y="590" width="1200" height="12" fill="#bb0a1e"/>
+  <rect x="80" y="80" width="120" height="120" rx="20" fill="#bb0a1e"/>
+  <path d="M112 110 h30 a36 36 0 0 1 0 72 h-30 z" fill="#ffffff"/>
+  <text x="240" y="172" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="900" fill="#ffffff" letter-spacing="-2">Dispatch</text>
+  <rect x="242" y="200" width="72" height="38" rx="5" fill="#bb0a1e"/>
+  <text x="278" y="228" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#ffffff" text-anchor="middle">KE</text>
+  <text x="80" y="470" font-family="Georgia, serif" font-size="46" fill="#b8b8b3">Independent news for Kenya</text>
+  <text x="80" y="532" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#80807b">Politics &#183; Business &#183; Counties &#183; Sports &#183; Tech &#183; Opinion</text>
+</svg>

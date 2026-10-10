@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Sunrise over hills illustration">
+  <rect width="400" height="250" fill="#dfe0db"/>
+  <circle cx="200" cy="118" r="52" fill="#bb0a1e"/>
+  <g stroke="#bb0a1e" stroke-width="7" stroke-linecap="round">
+    <path d="M200 44 V28"/>
+    <path d="M200 192 V208"/>
+    <path d="M126 118 H110"/>
+    <path d="M274 118 H290"/>
+    <path d="M148 66 L137 55"/>
+    <path d="M252 66 L263 55"/>
+    <path d="M148 170 L137 181"/>
+    <path d="M252 170 L263 181"/>
+  </g>
+  <path d="M0 210 Q100 150 200 200 T400 190 V250 H0 Z" fill="#111111"/>
+  <path d="M0 226 Q120 180 240 218 T400 210 V250 H0 Z" fill="#006b3f"/>
+</svg>

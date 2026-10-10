@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Rising market chart illustration">
+  <rect width="400" height="250" fill="#dfe0db"/>
+  <g fill="#111111">
+    <rect x="56" y="160" width="44" height="50"/>
+    <rect x="120" y="130" width="44" height="80"/>
+    <rect x="184" y="100" width="44" height="110"/>
+    <rect x="248" y="66" width="44" height="144"/>
+  </g>
+  <rect x="312" y="44" width="44" height="166" fill="#bb0a1e"/>
+  <path d="M48 176 L140 146 L206 116 L270 84 L356 40" fill="none" stroke="#006b3f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M334 26 L366 40 L336 56 Z" fill="#006b3f"/>
+  <rect y="210" width="400" height="40" fill="#111111"/>
+  <rect y="210" width="400" height="5" fill="#bb0a1e"/>
+</svg>
