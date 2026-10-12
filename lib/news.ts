@@ -27,6 +27,22 @@ export const sections: Section[] = [
     intro: 'The stories shaping Kenya today, reported with clarity and context.',
     stories: [
       {
+        slug: 'kenya-braces-for-heavy-rains-as-el-nino-conditions-strengthen',
+        category: 'Weather',
+        title: 'Kenya braces for heavy rains as El Niño conditions strengthen',
+        summary: 'The Meteorological Department forecasts intense rainfall across more than a dozen counties this week, with Kisumu already counting storm damage.',
+        time: '12 min ago',
+        datetime: '2026-10-12T10:22:00+03:00',
+        author: 'Dispatch Newsroom',
+        image: '/arts/images.webp',
+        imageCredit: 'Dispatch KE',
+        body: [
+          'Kenya is bracing for a week of heavy rain as El Niño conditions strengthen, with the Meteorological Department forecasting intense rainfall across more than a dozen counties and residents in low-lying areas advised to watch for flooding.',
+          'Kisumu has already reported storm damage to roads and property after a tree fell onto a house during Wednesday night’s storm, while thunderstorms are expected in parts of Western Kenya and the Rift Valley.',
+          'The department has named Kisumu, Nairobi, Kiambu, Mombasa, Kilifi, Kwale, Wajir, Marsabit, Meru, Embu, Murang’a, Kakamega, Vihiga, Bungoma, Busia, Siaya and Homa Bay as the counties to watch, and says the heavy rains come as El Niño conditions approach their peak.',
+        ],
+      },
+      {
         slug: 'iebc-180m-ballot-papers-plan-tender-roadblock',
         category: 'Elections',
         title: 'Inside IEBC’s 180M ballot papers plan as 2027 election tender hits fresh roadblock',

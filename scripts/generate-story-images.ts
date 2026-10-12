@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
-import { storyArtSvg } from '../lib/story-art.ts'
-import { allStories } from '../lib/news.ts'
+import { storyArtSvg } from '../lib/story-art'
+import { allStories } from '../lib/news'
 
 mkdirSync('public/images/stories', { recursive: true })
 

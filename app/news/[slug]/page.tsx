@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const story = getStoryBySlug(slug)
   if (!story) return { title: 'Story not found' }
   const url = `${siteUrl}/news/${story.slug}`
+  const ogImage = story.image ? `${siteUrl}${story.image}` : `${siteUrl}/images/stories/${story.slug}.svg`
   return {
     title: story.title,
     description: story.summary,
@@ -32,9 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: story.datetime,
       authors: [story.author],
       siteName: 'Dispatch KE',
-      images: [{ url: `${siteUrl}/images/stories/${story.slug}.svg`, width: 400, height: 250, alt: story.title }],
+      images: [{ url: ogImage, width: story.image ? undefined : 400, height: story.image ? undefined : 250, alt: story.title }],
     },
-    twitter: { card: 'summary_large_image', title: story.title, description: story.summary, images: [`${siteUrl}/images/stories/${story.slug}.svg`] },
+    twitter: { card: 'summary_large_image', title: story.title, description: story.summary, images: [ogImage] },
   }
 }
 
@@ -45,6 +46,7 @@ export default async function ArticlePage({ params }: Props) {
 
   const related = getRelatedStories(story.slug)
   const url = `${siteUrl}/news/${story.slug}`
+  const ogImage = story.image ? `${siteUrl}${story.image}` : `${siteUrl}/images/stories/${story.slug}.svg`
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -58,7 +60,7 @@ export default async function ArticlePage({ params }: Props) {
       logo: { '@type': 'ImageObject', url: `${siteUrl}/icon.svg` },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    image: [`${siteUrl}/icon.svg`],
+    image: [ogImage],
   }
 
   return (
@@ -84,7 +86,7 @@ export default async function ArticlePage({ params }: Props) {
           <div className="article-body">
             {story.body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
           </div>
-          <ArticleActions title={story.title} />
+          <ArticleActions title={story.title} url={url} summary={story.summary} />
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         </article>
 

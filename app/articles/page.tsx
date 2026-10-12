@@ -6,6 +6,7 @@ import SiteHeader from '../../components/SiteHeader'
 import SiteFooter from '../../components/SiteFooter'
 
 const trending = [
+  { category: 'Weather', title: 'Kenya braces for heavy rains as El Niño conditions strengthen', note: 'The Meteorological Department forecasts intense rainfall across more than a dozen counties this week.' },
   { category: 'Elections', title: 'Inside IEBC’s 180M ballot papers plan as 2027 election tender hits fresh roadblock', note: 'The commission’s procurement of election technology and ballot materials remains suspended pending review.' },
   { category: 'Health', title: 'Kenya races to trace contacts after first Ebola death as DRC outbreak spreads', note: 'The first imported Bundibugyo case was confirmed on October 6; the patient died days earlier after travelling from the DRC through Uganda.' },
   { category: 'Business', title: 'Dangote breaks ground on Ksh2 trillion Lamu refinery', note: 'The $16 billion, 700,000-barrel-per-day plant will be East Africa’s largest refinery and Kenya’s biggest private-sector investment.' },

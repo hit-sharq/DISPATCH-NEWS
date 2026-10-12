@@ -4,6 +4,8 @@
   "private": true,
   "packageManager": "pnpm@12.3.4",
   "scripts": {
+    "predev": "tsc scripts/generate-story-images.ts --rootDir . --outDir .scripts --module commonjs --target es2020 --skipLibCheck && node .scripts/scripts/generate-story-images.js",
+    "prebuild": "tsc scripts/generate-story-images.ts --rootDir . --outDir .scripts --module commonjs --target es2020 --skipLibCheck && node .scripts/scripts/generate-story-images.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

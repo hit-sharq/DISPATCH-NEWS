@@ -1,6 +1,7 @@
 
 node_modules/
 .clerk
+.scripts/
 
 .next/
 tsconfig.tsbuildinfo
