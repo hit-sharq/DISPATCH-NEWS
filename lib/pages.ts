@@ -86,6 +86,8 @@ export const contentPages: ContentPage[] = [
         'Native content, clearly labelled and produced with our commercial team',
         'County-level targeting, so your message reaches the right market',
       ] },
+      { type: 'h2', text: 'Example of labelled sponsored content' },
+      { type: 'p', text: 'See how we label paid native content: <a href="/sponsored/">Sponsored content hub</a> (e.g. <a href="/sponsored/betkumi">BetKumi</a>). All sponsored content carries a clear banner, rel="sponsored" links, and the required disclosures.' },
       { type: 'h2', text: 'Why Dispatch KE' },
       { type: 'p', text: 'Advertising on Dispatch KE supports independent journalism — and readers respect brands that do. Our ad standards are strict: no political advertising without disclosure, no tracking-based personalisation, and no ads adjacent to breaking news unless they are relevant to it.' },
       { type: 'h2', text: 'Get in touch' },

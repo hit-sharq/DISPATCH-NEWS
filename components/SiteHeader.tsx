@@ -22,7 +22,7 @@ const sections: [string, string][] = [
 ]
 
 export default function SiteHeader({ active, search }: SiteHeaderProps) {
-  const today = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(new Date())
+  const today = new Intl.DateTimeFormat('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Africa/Nairobi' }).format(new Date())
   return (
     <>
       <div className="utility"><div className="wrap"><span>Nairobi Edition · {today}</span><div className="utility-links"><span><b>EN</b> / SW</span><a href="#brief">Newsletter</a><a href="/contact">Contact</a></div></div></div>
