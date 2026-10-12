@@ -74,6 +74,51 @@ export const sponsors: Sponsor[] = [
     bannerText:
       'Advertisement · Paid for by BetKumi (Incline Technologies Limited). Not written by the Dispatch KE newsroom.',
   },
+  {
+    slug: 'pakakumi',
+    name: 'Pakakumi',
+    tagline: 'Kenya\'s provably fair crash game platform',
+    image: '/arts/PK%20logo%20for%20Updated.jpg.jpeg',
+    standfirst:
+      'Pakakumi is Kenya\'s provably fair crash game platform offering Aviator and Crash with multipliers up to 3,000x. Licensed by BCLB (Licences BK 0001230 & PG 0001229), with instant M-Pesa deposits and withdrawals via Paybill 547717.',
+    description:
+      'Pakakumi is Kenya\'s online crash-game platform offering Aviator and Crash with provably fair rounds — hash published before each round, seed revealed after. Multipliers up to 3,000x, sports betting alongside crash games, all under one M-Pesa balance. Browser-based with no app required (no official APK exists). Free demo mode available on Aviator.',
+    keyFacts: [
+      'BCLB licensed — Licences BK 0001230 & PG 0001229 (Reys and Meys Limited)',
+      'M-Pesa only — Paybill 547717, STK Push (confirm-on-phone)',
+      'Deposits and withdrawals run against the single Safaricom number on the account',
+      'Multipliers up to 3,000x',
+      'Provably fair rounds — hash published before each round, seed revealed after',
+      'Minimum bet KES 20 at 2x multiplier',
+      'Low-stakes play supported',
+      '100% Tuesday Deposit Bonus — first deposit on Tuesday: 100% match up to KES 100, 10x wager, 7 days',
+      'Daily First Deposit Bonus — 5% back up to KES 100 on deposits up to KES 2,000, no wagering',
+      'Friday Cashback — 1–30% of weekly net losses as Free Bets based on stake volume',
+      'Nduthika Weekly Leaderboard — Friday to Thursday, stake KES 20 at 2x+ to qualify, 1st: motorbike, 2nd/3rd: KES 15,000',
+      'Free demo mode on Aviator',
+      'Browser-based — no app required; no official APK exists',
+      '24/7 support: 0743 999 333',
+    ],
+    features: [
+      'Aviator — provably fair crash game',
+      'Crash — classic multiplier game',
+      'Sports betting — football alongside crash games',
+      'Free demo mode on Aviator',
+      'Nduthika Weekly Leaderboard — motorbike prize',
+    ],
+    ctaLinks: [
+      { href: 'https://pakakumi.com/', label: 'pakakumi.com — Play now' },
+    ],
+    contact: {
+      phone: '0743 999 333',
+      liveChat: 'On pakakumi.com (24/7)',
+      social: [],
+    },
+    disclaimer:
+      'Pakakumi is operated by Reys and Meys Limited and is licensed by the Betting Control and Licensing Board of Kenya under Licences BK 0001230 and PG 0001229. <b>18+ only.</b> Gambling can be addictive and can be harmful. Set a deposit limit before your first stake, and treat every round as entertainment first. If you or someone you know has a gambling problem, please seek help from a professional support service. Helpline: 0743 999 333 (24/7).',
+    bannerText:
+      'Advertisement · Paid for by Pakakumi (Reys and Meys Limited). Not written by the Dispatch KE newsroom.',
+  },
 ]
 
 export function getSponsorBySlug(slug: string): Sponsor | undefined {
