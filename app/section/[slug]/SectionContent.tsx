@@ -4,7 +4,7 @@ import { use, useMemo, useState } from 'react'
 import { ArrowRight, Bookmark, Clock3, Share2 } from 'lucide-react'
 import SiteHeader from '../../../components/SiteHeader'
 import SiteFooter from '../../../components/SiteFooter'
-import SectionIllustration from '../../../components/illustrations'
+import StoryArt from '../../../components/StoryArt'
 import type { Section } from '../../../lib/news'
 
 export default function SectionContent({ data }: { data: Section }) {
@@ -46,7 +46,7 @@ export default function SectionContent({ data }: { data: Section }) {
 
           {featured && (
             <article className="featured-card">
-              <div className="featured-art"><SectionIllustration section={data.slug} /></div>
+              <div className="featured-art"><StoryArt story={featured} /></div>
               <div className="featured-copy">
                 <span className="kicker">{featured.category}</span>
                 <h3><a href={`/news/${featured.slug}`}>{featured.title}</a></h3>
@@ -66,7 +66,7 @@ export default function SectionContent({ data }: { data: Section }) {
             <div className="story-grid section-grid">
               {rest.map((story) => (
                 <article className="story-card" key={story.slug}>
-                  <SectionIllustration section={data.slug} className="card-art" />
+                  <StoryArt story={story} className="card-art" />
                   <span className="kicker">{story.category}</span>
                   <h3><a href={`/news/${story.slug}`}>{story.title}</a></h3>
                   <p className="story-summary">{story.summary}</p>

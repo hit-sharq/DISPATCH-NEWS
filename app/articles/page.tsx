@@ -6,9 +6,9 @@ import SiteHeader from '../../components/SiteHeader'
 import SiteFooter from '../../components/SiteFooter'
 
 const trending = [
-  { category: 'Politics', title: 'UDA defections reshape the race ahead of 2027', note: 'Party realignments are accelerating as governors and MPs weigh new alliances.' },
-  { category: 'Health', title: 'Kenya steps up Ebola surveillance after confirmed case', note: 'Health officials are tracing contacts and monitoring suspected cases.' },
-  { category: 'Business', title: 'South Sudan plans inland depot at Naivasha SEZ', note: 'The project aims to ease pressure on the Port of Mombasa.' },
+  { category: 'Elections', title: 'Inside IEBC’s 180M ballot papers plan as 2027 election tender hits fresh roadblock', note: 'The commission’s procurement of election technology and ballot materials remains suspended pending review.' },
+  { category: 'Health', title: 'Kenya races to trace contacts after first Ebola death as DRC outbreak spreads', note: 'The first imported Bundibugyo case was confirmed on October 6; the patient died days earlier after travelling from the DRC through Uganda.' },
+  { category: 'Business', title: 'Dangote breaks ground on Ksh2 trillion Lamu refinery', note: 'The $16 billion, 700,000-barrel-per-day plant will be East Africa’s largest refinery and Kenya’s biggest private-sector investment.' },
 ]
 
 function KenyaPulse() {

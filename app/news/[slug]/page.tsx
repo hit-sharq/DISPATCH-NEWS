@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, Clock3 } from 'lucide-react'
 import SiteHeader from '../../../components/SiteHeader'
-import SectionIllustration from '../../../components/illustrations'
+import StoryArt from '../../../components/StoryArt'
 import SiteFooter from '../../../components/SiteFooter'
 import ArticleActions from '../../../components/ArticleActions'
 import { allStories, getRelatedStories, getStoryBySlug } from '../../../lib/news'
@@ -32,9 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: story.datetime,
       authors: [story.author],
       siteName: 'Dispatch KE',
-      images: [{ url: `${siteUrl}/images/${story.section}.svg`, width: 400, height: 250, alt: story.title }],
+      images: [{ url: `${siteUrl}/images/stories/${story.slug}.svg`, width: 400, height: 250, alt: story.title }],
     },
-    twitter: { card: 'summary_large_image', title: story.title, description: story.summary, images: [`${siteUrl}/images/${story.section}.svg`] },
+    twitter: { card: 'summary_large_image', title: story.title, description: story.summary, images: [`${siteUrl}/images/stories/${story.slug}.svg`] },
   }
 }
 
@@ -78,8 +78,8 @@ export default async function ArticlePage({ params }: Props) {
               <time dateTime={story.datetime}>{story.time}</time>
             </div>
             <p className="article-standfirst">{story.summary}</p>
-            <div className="article-art"><SectionIllustration section={story.section} /></div>
-            <p className="caption">Illustration: Dispatch KE. Replace with the story photograph.</p>
+            <div className="article-art"><StoryArt story={story} /></div>
+            <p className="caption">{story.imageCredit ? `Photo: ${story.imageCredit}` : 'Illustration: Dispatch KE. Replace with the story photograph.'}</p>
           </div>
           <div className="article-body">
             {story.body.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
@@ -93,7 +93,7 @@ export default async function ArticlePage({ params }: Props) {
           <div className="story-grid">
             {related.map((item) => (
               <article className="story-card" key={item.slug}>
-                <SectionIllustration section={item.section} className="card-art" />
+                <StoryArt story={item} className="card-art" />
                 <span className="kicker">{item.category}</span>
                 <h3><a href={`/news/${item.slug}`}>{item.title}</a></h3>
                 <p className="story-summary">{item.summary}</p>
