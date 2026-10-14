@@ -34,7 +34,7 @@ export const sections: Section[] = [
         time: '12 min ago',
         datetime: '2026-10-12T10:22:00+03:00',
         author: 'Dispatch Newsroom',
-        image: '/arts/images.webp',
+        image: '/arts/images_el_nino.webp',
         imageCredit: 'Dispatch KE',
         body: [
           'Kenya is bracing for a week of heavy rain as El Niño conditions strengthen, with the Meteorological Department forecasting intense rainfall across more than a dozen counties and residents in low-lying areas advised to watch for flooding.',
