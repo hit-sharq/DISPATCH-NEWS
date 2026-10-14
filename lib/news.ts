@@ -608,7 +608,7 @@ export const sections: Section[] = [
         time: '30 min ago',
         datetime: '2026-10-13T09:30:00+03:00',
         author: 'Sports Desk',
-        image: '/images/stories/ucl-matchday3-preview.jpg',
+        image: '/arts/images.webp',
         imageCredit: 'UEFA',
         body: [
           'The UEFA Champions League returns this week with Matchday 3 of the new league phase, and the schedule is packed with heavyweight encounters that could shape the early standings.',
@@ -628,8 +628,8 @@ export const sections: Section[] = [
         time: '2 hrs ago',
         datetime: '2026-10-11T18:45:00+03:00',
         author: 'Sports Desk',
-        image: '/images/stories/real-madrid-ucl.jpg',
-        imageCredit: 'Real Madrid CF',
+        image: '/arts/images.webp',
+        imageCredit: 'UEFA',
         body: [
           'Real Madrid began their UEFA Champions League title defence with a 3-1 victory over VfB Stuttgart at the Santiago Bernabeu, with summer signing Endrick netting on his European debut for the club.',
           'The Spanish giants, seeking a record-extending 16th European crown, fell behind early to a Deniz Undav strike but responded through Rodrygo and a Jude Bellingham penalty before Endrick sealed the win in stoppage time.',
@@ -660,8 +660,8 @@ export const sections: Section[] = [
         time: '4 hrs ago',
         datetime: '2026-10-11T16:40:00+03:00',
         author: 'Sports Desk',
-        image: '/images/stories/haaland-ucl-hat-trick.jpg',
-        imageCredit: 'Manchester City FC',
+        image: '/arts/images.webp',
+        imageCredit: 'UEFA',
         body: [
           'Erling Haaland scored his eighth Champions League hat-trick as Manchester City demolished Club Brugge 5-0 at the Etihad Stadium.',
           'The Norwegian took his competition tally to 42 goals in just 38 appearances, moving level with Raul Gonzalez on the all-time scoring list and closing in on Robert Lewandowski and Lionel Messi.',
