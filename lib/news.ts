@@ -608,7 +608,7 @@ export const sections: Section[] = [
         time: '30 min ago',
         datetime: '2026-10-13T09:30:00+03:00',
         author: 'Sports Desk',
-        image: '/arts/unnamed.webp',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'The UEFA Champions League returns this week with Matchday 3 of the new league phase, and the schedule is packed with heavyweight encounters that could shape the early standings.',
@@ -628,7 +628,7 @@ export const sections: Section[] = [
         time: '2 hrs ago',
         datetime: '2026-10-11T18:45:00+03:00',
         author: 'Sports Desk',
-        image: '/arts/unnamed.webp',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'Real Madrid began their UEFA Champions League title defence with a 3-1 victory over VfB Stuttgart at the Santiago Bernabeu, with summer signing Endrick netting on his European debut for the club.',
@@ -660,7 +660,7 @@ export const sections: Section[] = [
         time: '4 hrs ago',
         datetime: '2026-10-11T16:40:00+03:00',
         author: 'Sports Desk',
-        image: '/arts/unnamed.webp',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'Erling Haaland scored his eighth Champions League hat-trick as Manchester City demolished Club Brugge 5-0 at the Etihad Stadium.',
