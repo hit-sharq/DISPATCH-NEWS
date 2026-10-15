@@ -34,6 +34,7 @@ export const sections: Section[] = [
         time: '12 min ago',
         datetime: '2026-10-12T10:22:00+03:00',
         author: 'Dispatch Newsroom',
+        image: '/arts/images_el_nino.webp',
         imageCredit: 'Dispatch KE',
         body: [
           'Kenya is bracing for a week of heavy rain as El Niño conditions strengthen, with the Meteorological Department forecasting intense rainfall across more than a dozen counties and residents in low-lying areas advised to watch for flooding.',
@@ -63,6 +64,7 @@ export const sections: Section[] = [
         time: '41 min ago',
         datetime: '2026-10-11T20:29:00+03:00',
         author: 'Dispatch Newsroom',
+        image: '/images/stories/ebola-research.jpg',
         imageCredit: 'Army Medicine, CC BY 2.0, via Wikimedia Commons',
         body: [
           'Kenya is racing to trace every contact of its first imported Bundibugyo Ebola case after the patient, a Kenyan citizen who had been living in the Democratic Republic of Congo, died on the night of October 5.',
@@ -263,6 +265,7 @@ export const sections: Section[] = [
         time: '7 hrs ago',
         datetime: '2026-10-11T14:20:00+03:00',
         author: 'Dispatch Newsroom',
+        image: '/images/stories/nairobi-skyline.jpg',
         imageCredit: 'Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons',
         body: [
           'Nairobi has collected 100,000 tonnes of garbage in a month, with Governor Johnson Sakaja hailing the city’s El Niño readiness as the cleanup drive continues.',
@@ -299,6 +302,7 @@ export const sections: Section[] = [
         time: '47 min ago',
         datetime: '2026-10-11T20:23:00+03:00',
         author: 'Politics Desk',
+        image: '/images/stories/lamu-residents-dangote-project.jpg',
         imageCredit: 'JPNjoro, CC BY-SA 4.0, via Wikimedia Commons',
         body: [
           'Residents of Lamu are demanding compensation and a share of the Ksh2 trillion Dangote refinery project, saying the host community has not been adequately consulted.',
@@ -405,6 +409,7 @@ export const sections: Section[] = [
         time: '26 min ago',
         datetime: '2026-10-11T20:44:00+03:00',
         author: 'Business Desk',
+        image: '/images/stories/dangote-lamu-refinery.jpg',
         imageCredit: 'FrankvEck, CC BY-SA 4.0, via Wikimedia Commons',
         body: [
           'President William Ruto and Nigerian billionaire Aliko Dangote have broken ground on the Ksh2 trillion East African Oil Refinery in Lamu, the single largest private-sector investment in Kenya’s history.',
@@ -420,6 +425,7 @@ export const sections: Section[] = [
         time: '1 hr ago',
         datetime: '2026-10-11T19:40:00+03:00',
         author: 'Business Desk',
+        image: '/images/stories/lamu-coast.jpg',
         imageCredit: 'MysteryBee, CC BY-SA 2.0, via Wikimedia Commons',
         body: [
           'Aliko Dangote has revealed why Lamu beat Mombasa and Tanga for his Ksh2 trillion oil refinery investment, citing the county’s deep-water port and its position on the LAPSSET corridor.',
@@ -602,6 +608,7 @@ export const sections: Section[] = [
         time: '30 min ago',
         datetime: '2026-10-13T09:30:00+03:00',
         author: 'Sports Desk',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'The UEFA Champions League returns this week with Matchday 3 of the new league phase, and the schedule is packed with heavyweight encounters that could shape the early standings.',
@@ -621,6 +628,7 @@ export const sections: Section[] = [
         time: '2 hrs ago',
         datetime: '2026-10-11T18:45:00+03:00',
         author: 'Sports Desk',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'Real Madrid began their UEFA Champions League title defence with a 3-1 victory over VfB Stuttgart at the Santiago Bernabeu, with summer signing Endrick netting on his European debut for the club.',
@@ -652,6 +660,7 @@ export const sections: Section[] = [
         time: '4 hrs ago',
         datetime: '2026-10-11T16:40:00+03:00',
         author: 'Sports Desk',
+        image: '/arts/ucl_champions_league.jpeg',
         imageCredit: 'UEFA',
         body: [
           'Erling Haaland scored his eighth Champions League hat-trick as Manchester City demolished Club Brugge 5-0 at the Etihad Stadium.',
@@ -683,6 +692,7 @@ export const sections: Section[] = [
         time: '6 hrs ago',
         datetime: '2026-10-11T14:25:00+03:00',
         author: 'Sports Desk',
+        image: '/images/stories/bayern-dinamo-ucl.jpg',
         imageCredit: 'FC Bayern Munich',
         body: [
           'Harry Kane scored twice and provided an assist as Bayern Munich crushed Dinamo Zagreb 9-2 at the Allianz Arena in one of the highest-scoring Champions League matches in recent memory.',
@@ -728,6 +738,7 @@ export const sections: Section[] = [
         time: '33 min ago',
         datetime: '2026-10-11T20:37:00+03:00',
         author: 'Sports Desk',
+        image: '/images/stories/melbourne-cricket-ground.jpg',
         imageCredit: 'Soham Banerjee, CC BY 2.0, via Wikimedia Commons',
         body: [
           'Marathon legend Eliud Kipchoge has won the Nike Melbourne Marathon Festival in Australia, setting a course record in the latest stop of his global running tour.',
@@ -743,6 +754,7 @@ export const sections: Section[] = [
         time: '1 hr ago',
         datetime: '2026-10-11T19:25:00+03:00',
         author: 'Sports Desk',
+        image: '/images/stories/nyayo-stadium.jpg',
         imageCredit: 'Rotsee2, CC BY-SA 3.0, via Wikimedia Commons',
         body: [
           'Harambee Stars head coach Benni McCarthy has cast doubt on Kenya’s chances of winning the AFCON title despite hosting the 2027 tournament alongside Uganda and Tanzania.',
